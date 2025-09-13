@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-git_resipository="https://github.com/xiaoyaohanyue/ppanel-docker-aio.git"
+git_resipository="https://raw.githubusercontent.com/movecat/ppanel-docker-aio.git"
 
 # ===========================
 # Color Definitions
