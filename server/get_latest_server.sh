@@ -2,7 +2,7 @@
 set -e
 
 LATEST_VER=$(curl -s https://api.github.com/repos/perfect-panel/server/releases/latest | jq -r '.tag_name')
-SERVER_URL="https://github.com/perfect-panel/server/releases/download/${LATEST_VER}/ppanel-server-${LATEST_VER}-linux-amd64.tar.gz"
+SERVER_URL="https://github.com/perfect-panel/server/releases/download/${LATEST_VER}/ppanel-server-linux-amd64.tar.gz"
 
 echo "Downloading ppanel-server version: ${LATEST_VER}"
 echo "URL: ${SERVER_URL}"
